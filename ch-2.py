@@ -1,0 +1,17 @@
+'''Making widgets in streamlit'''
+
+import streamlit as st
+ 
+st.title('Chai maker app')
+if st.button ('Make chai'):
+    st.success('Your chai is being brewed')
+add_masala = st.checkbox('Add masala to the chai') #We can make to do apps from this bcz its a checklist
+if add_masala:
+    st.write('Masala added to chai')
+
+tea_type = st.radio('Pick your chai base: ', ['Milk', 'Water', 'Honey'])
+
+
+
+
+
