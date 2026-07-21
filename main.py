@@ -1,6 +1,8 @@
-def main():
-    print("Hello from learning-streamlit!")
+import streamlit as st
 
+st.title("Hello app")
+st.subheader("Brewed with streamlit")
+st.text("Welcomt to your first interactive app")
+st.write("Choose your favourite variety of movie")
 
-if __name__ == "__main__":
-    main()
+movie = st.selectbox()
