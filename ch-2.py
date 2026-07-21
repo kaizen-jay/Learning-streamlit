@@ -10,6 +10,10 @@ if add_masala:
     st.write('Masala added to chai')
 
 tea_type = st.radio('Pick your chai base: ', ['Milk', 'Water', 'Honey'])
+st.write(f'Selected base is {tea_type}')
+flavour = st.selectbox('Choose Flavour', ['Adrak', 'Kesar', 'Tulsi'])
+st.write(f'Selected flavour is {flavour}')
+
 
 
 
