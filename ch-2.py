@@ -14,6 +14,9 @@ st.write(f'Selected base is {tea_type}')
 flavour = st.selectbox('Choose Flavour', ['Adrak', 'Kesar', 'Tulsi'])
 st.write(f'Selected flavour is {flavour}')
 
+sugar = st.slider("Sugar Spoons", 0, 5, 2) #here 2 is the default value 
+
+st.write(f"Selected sugar spoons is {sugar}")
 
 
 
