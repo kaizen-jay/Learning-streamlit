@@ -18,9 +18,16 @@ sugar = st.slider("Sugar Spoons", 0, 5, 2) #here 2 is the default value
 
 st.write(f"Selected sugar spoons is {sugar}")
 
+cups = st.number_input("How many cups", min_value = 1, max_value = 5, step=1)
+st.write(f"You have chosen {cups} cups")
+
 name = st.text_input("Enter your name: ")
 if name: #this indicates if any value is entered in name it will perfor something inside the if statement
-    st.write(f"Welcome, {name} ! Your chai is ready")
+    st.write(f"Welcome, {name} ! Your chai is ready") 
+
+dob = st.date_input("Enter your Date of Birth")
+st.write(f"Your date of birth is {dob} ")
+
 
 
 
