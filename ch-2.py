@@ -17,7 +17,12 @@ st.write(f'Selected flavour is {flavour}')
 sugar = st.slider("Sugar Spoons", 0, 5, 2) #here 2 is the default value 
 
 st.write(f"Selected sugar spoons is {sugar}")
-#green github...
+
+name = st.text_input("Enter your name: ")
+if name: #this indicates if any value is entered in name it will perfor something inside the if statement
+    st.write(f"Welcome, {name} ! Your chai is ready")
+
+
 
 
 
