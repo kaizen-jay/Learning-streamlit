@@ -5,11 +5,13 @@ st.title("AGE CALCULATOR USING STREAMLIT")
 dob= st.date_input("Enter your Date of Birth: ", min_value=date(1900,1,1), max_value=date.today())
 today = date.today()
 age = today.year - dob.year
-st.success(f"Your age is {age} years")
+
 if age >= 18:
-    print("You are an adult")
+    st.success(f"Your age is {age} years. And you are an adult.")
 else:
-    print("You are a minor")
+    st.success(f"Your age is {age} years. And you are a minor.")
+
+
 
 
 
