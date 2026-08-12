@@ -17,4 +17,4 @@ if vote1:
 elif vote2:
     st.success("Thanks for voting adrak chai")
 
-# making github green.
+# making github green...
