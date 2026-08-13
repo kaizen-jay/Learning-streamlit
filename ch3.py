@@ -17,4 +17,10 @@ if vote1:
 elif vote2:
     st.success("Thanks for voting adrak chai")
 
-# making github green....
+#now i will learn to add sidebar in a website 
+
+name = st.sidebar.text_input("Enter your name")
+tea = st.sidebar.selectbox("Choose your chai", ["Masala", "Kesar", "Adrak"])
+st.write(f"Welcome {name}, your {tea} chai is getting ready")
+
+
