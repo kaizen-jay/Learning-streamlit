@@ -23,4 +23,13 @@ name = st.sidebar.text_input("Enter your name")
 tea = st.sidebar.selectbox("Choose your chai", ["Masala", "Kesar", "Adrak"])
 st.write(f"Welcome {name}, your {tea} chai is getting ready")
 
+with st.expander("Show chai making instructions"):
+    st.write("""
+    1. Boil water with tea leaves
+    2. Add milk and spices
+    3. Serve hot""")
+
+st.markdown('### Welcome to Chai app')
+st.markdown('> Blockquote ')
+     
 
