@@ -6,3 +6,7 @@ if file:
     df = pd.read_csv(file)
     st.subheader("Data preview")
     st.dataframe(df) #Pandas ke sath streamlit ka kaafi close relation hai 
+if file;
+    st.subheader("Summary of the data")
+    st.write(df.describe())
+    
