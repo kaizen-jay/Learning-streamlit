@@ -20,3 +20,5 @@ if file:
     filtered_data = df[df["sex"] == gender]   #matlab ki ham sex dataframe ko select karna chahte hai . and agar is sex ki value equal ho gender ke andar to iss poore ko ham dataframe bana denge . Isse hoga ye ki poora filtered data ho jayega (more in pandas section) 
     #Now to display the outcome:
     st.dataframe(filtered_data) #matlab ki mujhe jo dataframe display karna hai vo de denge
+
+    # isse hota ye hai ki jo value hamne li hai waha waha true ho gaya hai and alag column ban gaya hai jaha pe jo true values hai bas vo display hongi 
