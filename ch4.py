@@ -13,4 +13,5 @@ if file:
 # If we wanted to pick out all the unique values form a column we can just use the pandas function just like:
 
 if file:
-    
+    sex = df["sex"].unique()
+    gender = st.selectbox("Filter by gender", sex) #means select box ko do parameters lagte hai first is filter by gender and parameter diya sex.
