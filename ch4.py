@@ -21,4 +21,4 @@ if file:
     #Now to display the outcome:
     st.dataframe(filtered_data) #matlab ki mujhe jo dataframe display karna hai vo de denge
 
-    # isse hota ye hai ki jo value hamne li hai waha waha true ho gayaai and alag column ban gaya hai jaha pe jo true values hai bas vo display hongi.
+    # isse hota ye hai ki jo value hamne li hai waha waha true ho gayaai and alag column ban gaya hai jaha pe jo true values hai bas vo display hongi.....
