@@ -17,7 +17,7 @@ if file:
     selected_city = st.selectbox("Filter by cities", cities) #means select box ko do parameters lagte hai first is filter by gender and parameter diya genderr.
 
 #Ham dataframes ke andar unique values ko select kar sakte hai and aur uska bhi dataframe bana sakte hai  
-    filtered_data = df[df["City"] == selected_city] #matlab ki ham sex dataframe ko select karna chahte hai . and agar is sex ki value equal ho gender ke andar to iss poore ko ham dataframe bana denge . Isse hoga ye ki poora filtered data ho jayega (more in pandas section) 
+    filtered_data = df[df["City"] == selected_city] #matlab ki ham city dataframe ko select karna chahte hai . and agar is city ki value equal ho selected_city ke andar to iss poore ko ham dataframe bana denge . Isse hoga ye ki poora filtered data ho jayega (more in pandas section) 
     #Now to display the outcome:
     st.dataframe(filtered_data) #matlab ki mujhe jo dataframe display karna hai vo de denge
 
