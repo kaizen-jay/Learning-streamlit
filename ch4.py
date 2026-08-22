@@ -13,12 +13,12 @@ if file:
 # If we wanted to pick out all the unique values form a column we can just use the pandas function just like:
 
 if file:
-    cities = df["City"].unique() # hamne genders variable ke andar ek 'sex' naam ka column le liya hai jiski saari unique values ham isme store kar rahe hai.   
-    selected_city = st.selectbox("Filter by cities", cities) #means select box ko do parameters lagte hai first is filter by gender and parameter diya genderr.
+    cities = df["City"].unique() # hamne cities variable ke andar ek 'City' naam ka column le liya hai jiski saari unique values ham isme store kar rahe hai.   
+    selected_city = st.selectbox("Filter by cities", cities) #means select box ko do parameters lagte hai first is filter by cities and parameter diya selected_cities.
 
 #Ham dataframes ke andar unique values ko select kar sakte hai and aur uska bhi dataframe bana sakte hai  
     filtered_data = df[df["City"] == selected_city] #matlab ki ham city dataframe ko select karna chahte hai . and agar is city ki value equal ho selected_city ke andar to iss poore ko ham dataframe bana denge . Isse hoga ye ki poora filtered data ho jayega (more in pandas section) 
     #Now to display the outcome:
-    st.dataframe(filtered_data) #matlab ki mujhe jo dataframe display karna hai vo de denge
+    st.dataframe(filtered_data) #matlab ki mujhe jo dataframe displa/ y karna hai vo de denge
 
     # isse hota ye hai ki jo value hamne li hai waha waha true ho gayaai and alag column ban gaya hai jaha pe jo true values hai bas vo display hongi...
