@@ -20,3 +20,4 @@ if st.button("Convert"):
     else:
         st.error("Failed to fetch conversion rate")
 ## the code is concluded.
+#Making the github green cuz i am going home tmrw :)
