@@ -21,3 +21,4 @@ if st.button("Convert"):
         st.error("Failed to fetch conversion rate")
 ## the code is concluded.
 #Making the github green cuz i am going home tmrw :)
+#If you see this text send me a "Git Hiiiii" on wsapp :)
