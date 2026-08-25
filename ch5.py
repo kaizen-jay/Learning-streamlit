@@ -19,5 +19,4 @@ if st.button("Convert"):
         st.success(f"{amount} INR = {converted: .2f} {target_currency}")
     else:
         st.error("Failed to fetch conversion rate")
-## the code is concluded.
-
+## the code is concluded....
