@@ -2,7 +2,7 @@ IF WE WANT TO PRACTICE MORE STREAMLIT WE SHOULD USE THE docs.streamlit.io FOR PR
 
 #Making the github green cuz i am going home tmrw :)
 #If you see this text send me a "Git Hiiiii" on wsapp :)
-Yesss making GitHub green.....
+Yesss making GitHub green.......
 
 
 
