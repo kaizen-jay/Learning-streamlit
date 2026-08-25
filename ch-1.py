@@ -10,3 +10,4 @@ st.write(f"You chose {movie}. Excellent choice")
 st.success('Your movie has been initialized')
 
 
+
