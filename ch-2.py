@@ -27,6 +27,7 @@ if name: #this indicates if any value is entered in name it will perfor somethin
 
 dob = st.date_input("Enter your Date of Birth")
 st.write(f"Your date of birth is {dob} ")
+#tweeks
 
 
 
